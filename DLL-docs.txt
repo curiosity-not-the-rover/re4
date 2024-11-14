@@ -1,0 +1,16 @@
+
+
+OpenVS4.dll
+Initialize
+Should return zero if no errors are found.
+Pass L"Ђ{(KEY-INFORMATION-HERE)}" for successful initialization. Run any program that uses the Vocaloid4 API from API monitor. Then go to API monitor -> first stack in params -> "LPWSTR" value.
+alternativey you can find this key info in your registry. go to HKEY_CURRENT_USER\Software\VocaloidApi4 and the folder in there will have the name of the key thingo you gotta pass to it.
+
+On a successful startup, OpenVS4's Initialize function will call a number of other functions from the other VocaloidApi4 DLLs. It can take a few seconds to load even in a minimal program.
+
+After Initialize is complete, call "CreateOpenVS". In a proper plugin it then seems to run in the background to handle synthesis by calling other DLLs. I have not been able to replicate this behaviour but I am trying my damn best.
+
+
+va_DSE4.dll
+"DSESetDBMPath" is used to locate the Vocaloid's DBM file.
+"DSEDoStepSynthesis" seems to be responsible for the actual voice synthesis.
