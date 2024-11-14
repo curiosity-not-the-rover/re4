@@ -16,6 +16,8 @@ https://vocaverse.network/threads/i-found-a-way-to-make-a-legal-custom-vocaloid-
 
 and i wanted in.
 
+also i saw some videos of people in games changing their voice to miku and i thought "hey wait a second. they dont have to use these ai-voice-changer-thingamajigs. they could just use vocaloid."
+
 ### how
 smashing rocks together and seeing what works.
 
@@ -44,5 +46,17 @@ i stared into the abyss and it stared back
 have you tried giving it libraries  
 if it still doesnt work i might have broken it
 
+### what are you planning to do with this
+this is a multi phase project
+first is basically getting the api to function like a basic text-to-speech engine. then i want to make a close-to-live voice changer by getting phonemes from mic input and re-creating them in vocaloid. that is a long way off tho. do not get your hype up for that one.
+
 ### are you just going on a tangent here
 yes
+
+### i can fix the code
+great make a pr pls
+
+# BIG IMPORTANT DISCLAIMER
+this is a personal project which relies on a proprietary third-party api. at no point will the api ever be distributed, and no NON-EXPORTED functions will be documented. however, the code in this project is free for personal use, modification, and small-scale, FREE distribution as long as this information is also provided.
+
+or do whatever you want i'm not gonna call you out on it.
