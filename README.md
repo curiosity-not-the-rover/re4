@@ -56,6 +56,9 @@ yes
 ### i can fix the code
 great make a pr pls
 
+### why c
+i dont know thats just what i thought would work and it kinda did so yeah im just sticking with it
+
 # BIG IMPORTANT DISCLAIMER
 this is a personal project which relies on a proprietary third-party api. at no point will the api ever be distributed, and no NON-EXPORTED functions will be documented. however, the code in this project is free for personal use, modification, and small-scale, FREE distribution as long as this information is also provided.
 
