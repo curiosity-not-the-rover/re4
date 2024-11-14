@@ -12,7 +12,7 @@
 
 HMODULE loaddll(char *dir) {
 
-    HMODULE loadthis =  LoadLibraryEx(dir, NULL, );
+    HMODULE loadthis =  LoadLibrary(dir);
     if (loadthis == NULL) {
         printf("Error loading DLL: ");
         printf(dir);
