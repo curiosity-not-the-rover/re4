@@ -1,0 +1,2 @@
+- don't do anything obviously intended to upset people for no reason or for an arbitrary reason
+- thank you
