@@ -10,6 +10,7 @@ On a successful startup, OpenVS4's Initialize function will call a number of oth
 
 After Initialize is complete, call "CreateOpenVS". In a proper plugin it then seems to run in the background to handle synthesis by calling other DLLs. I have not been able to replicate this behaviour but I am trying my damn best.
 
+Terminate also calls va_DSE4.dll!DSETerminate and another one i can't remember right now im on a different computer ok
 
 va_DSE4.dll
 "DSESetDBMPath" is used to locate the Vocaloid's DBM file.
