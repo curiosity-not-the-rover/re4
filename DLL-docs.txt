@@ -8,7 +8,9 @@ alternativey you can find this key info in your registry. go to HKEY_CURRENT_USE
 
 On a successful startup, OpenVS4's Initialize function will call a number of other functions from the other VocaloidApi4 DLLs. It can take a few seconds to load even in a minimal program.
 
-After Initialize is complete, call "CreateOpenVS". In a proper plugin it then seems to run in the background to handle synthesis by calling other DLLs. I have not been able to replicate this behaviour but I am trying my damn best.
+After Initialize is complete, call "CreateOpenVS".
+This returns a pointer to the virtual function table for the program.
+(still working out how to use this)
 
 Terminate also calls va_DSE4.dll!DSETerminate and another one i can't remember right now im on a different computer ok
 
