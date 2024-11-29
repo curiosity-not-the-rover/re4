@@ -10,7 +10,7 @@ On a successful startup, OpenVS4's Initialize function will call a number of oth
 
 After Initialize is complete, call "CreateOpenVS".
 This returns a pointer to the virtual function table for the program.
-(still working out how to use this)
+Virtual functions 6, 7 and 8 allow other virtual function tables to be loaded.
 
 Terminate also calls va_DSE4.dll!DSETerminate and another one i can't remember right now im on a different computer ok
 
